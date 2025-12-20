@@ -17,8 +17,6 @@ print("Result:", result)
 #adding comment to trigger commit
 
 
-name = name
-
 import tempfile
 
 tmp_file1 = tempfile.NamedTemporaryFile(delete=False)
@@ -27,6 +25,5 @@ tmp_file = open(tmp_file1, "w+")
 
 
 def fpn(a):
-  j = 10
+  i = 10
   return i + a       # Noncompliant
-  j += 1             # this is never executed
