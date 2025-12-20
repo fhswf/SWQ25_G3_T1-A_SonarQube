@@ -17,14 +17,10 @@ def myfunc(param):
     if param == None:
         print(param.test())  
 
-    if param is not None:
-        pass
-    else:
+    if param is None:
         print(param.test())  
 
-    if param != None:
-        pass
-    else:
+    if param is None:
         print(param.test())  
 
 
